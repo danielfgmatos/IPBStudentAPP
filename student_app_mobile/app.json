@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "IPB Student App",
+    "slug": "student_app_mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon_ipb_white.png",
+    "primaryColor": "#811B55",
+    "splash": {
+      "image": "./assets/logoipb.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon_ipb_white.png",
+        "backgroundColor": "#811B55"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
